@@ -56,7 +56,7 @@ const Home = () => {
     };
 
   return (
-    <div className='bg-[image:url("https://images8.alphacoders.com/992/992724.png")] absolute w-full h-screen bg-no-repeat bg-contain'>
+    <div className='bg-[image:url("https://images8.alphacoders.com/992/992724.png")] absolute w-full h-screen bg-no-repeat bg-center'>
         <div className={userFound ? 'hidden' : ' container mx-auto rounded-md bg-black/60 border-2 border-black w-[50%] my-[10%] text-white'}>
             <p className='text-4xl px-4 py-4 text-center'>Apex Legends Player Stat Tracker</p>
             <div className='py-2 space-y-2 flex flex-col items-center'>
